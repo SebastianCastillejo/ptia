@@ -1,0 +1,5 @@
+.mensaje { background: var(--color-superficie); border-radius: 16px; padding: 20px; font-size: 15px; line-height: 1.5; display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
+.info { color: #3A423C; }
+.cargando { color: var(--color-texto-tenue); }
+.error { color: var(--color-falta); border: 1.5px solid #E8B9A1; }
+.accion { height: var(--toque-min); padding: 0 16px; border-radius: 12px; border: 1.5px solid currentColor; background: transparent; font-weight: 600; }

@@ -1,0 +1,13 @@
+.bloque { display: flex; flex-direction: column; gap: var(--espacio-2); }
+.etiqueta { font-size: 13px; font-weight: 600; color: #3A423C; }
+.fila { display: flex; gap: var(--espacio-2); }
+.campo {
+  flex: 1; min-width: 0; height: 48px; padding: 0 14px; font-size: 16px;
+  border: 1.5px solid var(--color-borde); border-radius: 12px; background: var(--color-superficie);
+}
+.boton {
+  height: 48px; padding: 0 16px; border: none; border-radius: 12px;
+  background: var(--color-texto); color: #fff; font-weight: 600; font-size: 15px;
+}
+.boton:disabled { opacity: 0.6; }
+.ayuda { font-size: 12px; color: var(--color-texto-tenue); }

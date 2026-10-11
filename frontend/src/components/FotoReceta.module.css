@@ -1,0 +1,3 @@
+.foto { display: grid; place-items: center; object-fit: cover; color: var(--color-texto); flex-shrink: 0; }
+.miniatura { width: 84px; height: 84px; border-radius: 12px; }
+.grande { width: 100%; height: 210px; }

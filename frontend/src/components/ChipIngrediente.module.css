@@ -1,0 +1,13 @@
+.chip {
+  display: inline-flex; align-items: center; gap: var(--espacio-2);
+  min-height: 40px; padding: 6px 6px 6px 14px; border-radius: var(--radio-pildora);
+  font-size: 14px; font-weight: 600;
+  background: var(--color-acento-fondo); color: var(--color-acento-oscuro); border: 1.5px solid #B9D3BF;
+}
+.desconocido { background: var(--color-falta-fondo); color: var(--color-falta); border: 1.5px dashed #C76A3A; }
+.texto { display: flex; flex-direction: column; line-height: 1.15; }
+.nota { font-size: 11px; font-weight: 500; opacity: 0.85; }
+.quitar {
+  width: 28px; height: 28px; border: none; border-radius: var(--radio-pildora);
+  background: rgba(0, 0, 0, 0.08); display: grid; place-items: center; padding: 0;
+}

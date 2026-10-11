@@ -1,0 +1,2 @@
+.logo { display: flex; align-items: center; gap: 10px; color: var(--color-acento); }
+.nombre { font-family: var(--fuente-titulos); font-weight: 700; font-size: 24px; letter-spacing: -0.02em; }

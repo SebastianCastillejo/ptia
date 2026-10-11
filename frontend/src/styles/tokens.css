@@ -1,0 +1,41 @@
+/* Tokens visuales tomados del prototipo de interfaz (Claude Design / Miro). */
+:root {
+  --color-fondo: #F4F3EE;
+  --color-superficie: #FFFFFF;
+  --color-texto: #1E2420;
+  --color-texto-suave: #4A524C;
+  --color-texto-tenue: #5C645E;
+  --color-borde: #C9CCC4;
+  --color-borde-suave: #E4E5DF;
+
+  --color-acento: #2E6B3F;          /* verde hierba: acciones principales */
+  --color-acento-oscuro: #1F4C2C;
+  --color-acento-fondo: #DCEBDF;
+
+  --color-sustituto: #1D3F66;
+  --color-sustituto-fondo: #DCE6F2;
+  --color-falta: #7A2E0B;
+  --color-falta-fondo: #F7E3D9;
+  --color-aviso-fondo: #FFF4E8;
+  --color-aviso-texto: #7A3410;
+  --color-neutro-fondo: #ECEDE7;
+  --color-foco: #E39B5A;
+
+  --fuente-titulos: 'Bricolage Grotesque', Georgia, serif;
+  --fuente-texto: 'Figtree', 'Segoe UI', system-ui, sans-serif;
+
+  --radio-s: 10px;
+  --radio-m: 14px;
+  --radio-l: 18px;
+  --radio-pildora: 999px;
+
+  --espacio-1: 4px;
+  --espacio-2: 8px;
+  --espacio-3: 12px;
+  --espacio-4: 16px;
+  --espacio-5: 22px;
+  --espacio-6: 32px;
+
+  --ancho-app: 480px;
+  --toque-min: 44px;
+}

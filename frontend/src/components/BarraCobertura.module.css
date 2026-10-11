@@ -1,0 +1,4 @@
+.fila { display: flex; align-items: center; gap: var(--espacio-2); }
+.pista { flex: 1; height: 8px; border-radius: var(--radio-pildora); background: #E6E8E1; overflow: hidden; }
+.relleno { height: 100%; border-radius: var(--radio-pildora); background: var(--color-acento); }
+.numero { font-size: 13px; font-weight: 700; color: var(--color-acento); min-width: 3ch; text-align: right; }

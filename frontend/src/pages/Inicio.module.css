@@ -1,0 +1,14 @@
+.pantalla { flex: 1; display: flex; flex-direction: column; gap: var(--espacio-5); padding: 28px var(--espacio-5) var(--espacio-5); }
+.intro { display: flex; flex-direction: column; gap: 6px; }
+.titulo { font-size: 34px; line-height: 1.05; font-weight: 700; }
+.bajada { font-size: 15px; color: var(--color-texto-suave); }
+.bloque { display: flex; flex-direction: column; gap: 10px; }
+.subtitulo { font-family: var(--fuente-texto); font-size: 13px; font-weight: 600; color: #3A423C; letter-spacing: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: var(--espacio-2); }
+.vacio { border: 1.5px dashed var(--color-borde); border-radius: 12px; padding: 14px; font-size: 14px; color: var(--color-texto-tenue); }
+.espaciador { flex: 1; }
+.buscar {
+  height: 56px; border: none; border-radius: 16px; background: var(--color-acento); color: #fff; font-size: 17px; font-weight: 700;
+}
+.buscar:hover:not(:disabled) { background: var(--color-acento-oscuro); }
+.buscar:disabled { background: #B9BDB6; }

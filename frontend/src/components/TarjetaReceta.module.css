@@ -1,0 +1,11 @@
+.tarjeta {
+  display: flex; gap: 14px; padding: 12px; text-decoration: none; color: inherit;
+  background: var(--color-superficie); border: 1.5px solid var(--color-borde-suave); border-radius: 16px;
+}
+.tarjeta:hover { border-color: var(--color-acento); }
+.info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+.encabezado { display: flex; justify-content: space-between; align-items: baseline; gap: var(--espacio-2); }
+.nombre { font-weight: 700; font-size: 16px; line-height: 1.2; }
+.tiempo { font-size: 12.5px; color: var(--color-texto-tenue); white-space: nowrap; }
+.detalle { font-size: 12.5px; color: #3A423C; }
+.falta { font-size: 12.5px; color: #9A3F12; }

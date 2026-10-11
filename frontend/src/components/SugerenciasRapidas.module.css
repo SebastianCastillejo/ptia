@@ -1,0 +1,8 @@
+.bloque { display: flex; flex-direction: column; gap: 10px; }
+.titulo { font-family: var(--fuente-texto); font-size: 13px; font-weight: 600; color: #3A423C; letter-spacing: 0; }
+.lista { display: flex; flex-wrap: wrap; gap: var(--espacio-2); }
+.opcion {
+  height: 40px; padding: 0 14px; border-radius: var(--radio-pildora);
+  border: 1.5px solid var(--color-borde); background: var(--color-superficie); font-size: 14px;
+}
+.opcion:hover { border-color: var(--color-acento); }

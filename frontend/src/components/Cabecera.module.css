@@ -1,0 +1,7 @@
+.cabecera { display: flex; align-items: center; gap: var(--espacio-2); padding: var(--espacio-4) 14px var(--espacio-2); }
+.atras {
+  width: var(--toque-min); height: var(--toque-min); border: none; background: transparent;
+  border-radius: var(--radio-s); display: grid; place-items: center;
+}
+.atras:hover { background: var(--color-neutro-fondo); }
+.titulo { font-size: 24px; }

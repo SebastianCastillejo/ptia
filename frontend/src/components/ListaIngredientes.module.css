@@ -1,0 +1,9 @@
+.bloque { display: flex; flex-direction: column; gap: 6px; }
+.titulo { font-family: var(--fuente-texto); font-size: 17px; letter-spacing: 0; }
+.lista { list-style: none; margin: 0; padding: 0; }
+.fila { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 10px 0; border-bottom: 1px solid #E1E2DB; font-size: 15px; }
+.estado { font-size: 12.5px; font-weight: 700; padding: 5px 10px; border-radius: var(--radio-pildora); white-space: nowrap; }
+.tiene { background: var(--color-acento-fondo); color: var(--color-acento-oscuro); }
+.sustituto { background: var(--color-sustituto-fondo); color: var(--color-sustituto); }
+.despensa { background: var(--color-neutro-fondo); color: #3A423C; }
+.falta { background: var(--color-falta-fondo); color: var(--color-falta); }

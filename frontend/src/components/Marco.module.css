@@ -1,0 +1,18 @@
+.marco {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.contenido {
+  width: 100%;
+  max-width: var(--ancho-app);
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 560px) {
+  .marco { padding: 24px 0; }
+  .contenido { background: var(--color-fondo); border: 1px solid var(--color-borde-suave); border-radius: 28px; overflow: hidden; min-height: auto; }
+}
